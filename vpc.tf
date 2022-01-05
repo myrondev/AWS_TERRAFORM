@@ -3,6 +3,6 @@ module "vpc" {
   version = "3.11.0"
   # insert the 21 required variables here
 
-  name = "my-vpc"
+  name = "my-new-vpc"
   cidr = "10.0.0.0/16"
 }
