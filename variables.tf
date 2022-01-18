@@ -3,3 +3,12 @@ variable "user_names" {
   type        = list(string)
   default     = ["jan", "pet", "rona"]
 }
+
+# variable "environment" {
+#   type = string
+# }
+
+variable "instance_defined_type" {
+  default = "t2.micro"
+}
+
